@@ -12,7 +12,7 @@ import {
     totalCollateralValueInUsd,
 } from "../utils/compound-helpers";
 
-const subgraphUrl = "http://v1graph.lodestarfinance.io/"
+const subgraphUrl = "https://graph.lodestarfinance.io/"
 
 const accountsQuery = gql`
   query accounts($lastId: ID, $pageSize: Int) {
